@@ -1,7 +1,7 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import Square from './Square'
 
-class Board extends React.Component {
+class Board extends Component {
   renderSquare(i) {
     const squares = this.props.squares;
     return <Square value={squares[i]} onClick={() => this.props.onClick(i)} />;

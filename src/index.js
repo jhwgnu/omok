@@ -1,10 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { createStore } from 'redux'
-import Square from './components/Square'
-import square from './reducers'
-import Board from './components/Board'
-import board from './reducers'
 import Game from './components/Game'
 import game from './reducers'
 

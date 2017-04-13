@@ -1,9 +1,9 @@
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import Board from './Board'
 import './style.css'
 
 
-class Game extends React.Component {
+class Game extends Component {
   constructor() {
     super();
     this.state = {
